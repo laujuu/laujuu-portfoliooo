@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100svh;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.container {
+    margin-bottom: 30svh;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    padding-left: 10px;
+    text-decoration: none;
+    color: #E9A6A6;
+  }
+
+
+  
