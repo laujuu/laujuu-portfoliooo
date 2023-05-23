@@ -2,12 +2,14 @@ import React from 'react';
 import { FaLinkedin, FaGithub, FaDownload } from 'react-icons/fa';
 import styles from './css/MainPage.module.css';
 import Navbar from '../components/Navbar';
+import ParticlesBackground from '../components/ParticlesBackground';
 
 class MainPage extends React.Component {
   render() {
     return (
       <main>
         <Navbar />
+        <ParticlesBackground />
         <div className={styles.container}>
           <div>
             <h1>Desenvolvedora web Fullstack</h1>
