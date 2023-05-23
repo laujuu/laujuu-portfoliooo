@@ -12,7 +12,7 @@ class MainPage extends React.Component {
         <ParticlesBackground />
         <div className={styles.container}>
           <div>
-            <h1>Desenvolvedora web Fullstack</h1>
+            <h1>Desenvolvedora Web Fullstack</h1>
           </div>
           <div>
             <p>
