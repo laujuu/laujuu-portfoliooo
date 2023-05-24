@@ -1,6 +1,8 @@
 import React from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import MainPage from './pages/MainPage';
+import { BrowserRouter } from 'react-router-dom';
+import AnimatedRoutes from './components/AnimatedRoutes';
+import Navbar from './components/Navbar';
+import ParticlesBackground from './components/ParticlesBackground';
 
 
 
@@ -8,9 +10,9 @@ class App extends React.Component {
   render() {
     return (
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={ <MainPage /> } />
-        </Routes>
+        <AnimatedRoutes />
+        <Navbar />
+        <ParticlesBackground />
       </BrowserRouter>
     );
   }

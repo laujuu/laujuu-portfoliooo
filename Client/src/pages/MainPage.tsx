@@ -1,15 +1,15 @@
 import React from 'react';
 import { FaLinkedin, FaGithub, FaDownload } from 'react-icons/fa';
 import styles from './css/MainPage.module.css';
-import Navbar from '../components/Navbar';
-import ParticlesBackground from '../components/ParticlesBackground';
+import { motion } from 'framer-motion'
 
 class MainPage extends React.Component {
   render() {
     return (
-      <main>
-        <Navbar />
-        <ParticlesBackground />
+      <motion.main 
+        initial={{ height: 0, opacity: 0 }}
+        animate={{ height: "100%", opacity: 1 }}
+        transition={{ duration: 1 }} >
         <div className={styles.container}>
           <div>
             <h1>Desenvolvedora Web Fullstack</h1>
@@ -32,7 +32,7 @@ class MainPage extends React.Component {
             </div>
           </div>
         </div>
-      </main>
+      </motion.main>
     );
   }
 }
