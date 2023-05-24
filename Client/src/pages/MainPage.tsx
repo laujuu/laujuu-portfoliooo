@@ -6,11 +6,12 @@ import { motion } from 'framer-motion'
 class MainPage extends React.Component {
   render() {
     return (
-      <motion.main 
+      <motion.main
+      className={styles.container}
         initial={{ height: 0, opacity: 0 }}
         animate={{ height: "100%", opacity: 1 }}
-        transition={{ duration: 1 }} >
-        <div className={styles.container}>
+        transition={{ delay: 0.3 }} >
+        <div >
           <div>
             <h1>Desenvolvedora Web Fullstack</h1>
           </div>
