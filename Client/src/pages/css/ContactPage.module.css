@@ -1,0 +1,15 @@
+.container {
+    margin-bottom: 30svh;
+}
+
+.email {
+    width: 400px;
+}
+
+.email p {
+    word-break: break-all;
+}
+
+.email span {
+    font-weight: bold;
+}

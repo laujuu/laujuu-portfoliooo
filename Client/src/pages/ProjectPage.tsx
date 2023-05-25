@@ -1,6 +1,5 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import styles from './css/AboutPage.module.css';
 import Carousel from '../components/Carousel';
 
 class ProjectPage extends React.Component {
@@ -12,7 +11,7 @@ class ProjectPage extends React.Component {
         transition={{ delay: 0.3 }}
       >
         <div>
-            <div className={styles.container}>
+            <div>
             </div>
             <Carousel />
         </div>
