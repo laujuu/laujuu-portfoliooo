@@ -1,0 +1,36 @@
+/* Carousel.module.css */
+
+.carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .carouselItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .carouselItem img {
+    width: 450px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10%;
+  }
+  
+  .carouselControls button {
+    margin: 5px;
+  }
+
+  .description {
+    width: 300px;
+    text-align: center;
+    word-break: break-all;
+  }
+
+  .stacks p {
+  font-weight: 500;
+}
