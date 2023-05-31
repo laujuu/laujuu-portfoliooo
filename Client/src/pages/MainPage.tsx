@@ -27,7 +27,7 @@ class MainPage extends React.Component {
               <a href="https://github.com/laujuu" target="_blank" rel="noopener noreferrer">
                 <FaGithub className={styles.icon} />
               </a>
-              <a href="../assets/curriculo-laura.pdf" download>
+              <a href="https://drive.google.com/file/d/1LazHKtjdMyDlZR8xZUsLX1HRC7JSryNk/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                 <FaDownload className={styles.icon} />
               </a>
             </div>
