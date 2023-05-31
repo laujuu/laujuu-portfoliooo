@@ -13,12 +13,12 @@ class ContactPage extends React.Component {
         transition={{ delay: 0.3 }} >
         <div className={styles.container}>
           <div>
-            <h1>Contato</h1>
+            <h1>Don't be shy! Hit me up! 😊</h1>
           </div>
           <div className={styles.email}>
             <p>
-              Gostou do que viu até aqui? Fique a vontade para entrar em contato
-              <span> laurafayec@gmail.com</span> 🌼🌻
+            🌻 Fique a vontade para entrar em contato 🌼<br/>
+              <span> laurafayec@gmail.com</span> 
             </p>
           </div>
         </div>

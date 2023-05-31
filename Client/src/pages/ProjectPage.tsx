@@ -10,11 +10,12 @@ class ProjectPage extends React.Component {
         animate={{ height: "100%", opacity: 1 }}
         transition={{ delay: 0.3 }}
       >
-        <div>
-            <div>
-            </div>
+        <motion.div
+        initial={{ height: 0, opacity: 0 }}
+        animate={{ height: "100%", opacity: 1 }}
+        transition={{ delay: 0.3 }}>
             <Carousel />
-        </div>
+        </motion.div>
       </motion.main>
     );
   }

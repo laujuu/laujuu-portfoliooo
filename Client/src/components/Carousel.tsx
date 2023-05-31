@@ -1,28 +1,32 @@
 import { useState } from 'react';
+import { FaGithub } from 'react-icons/fa';
 import styles from './css/Carousel.module.css';
 
 const items = [
   {
     id: 1,
-    name: 'projeto de tal',
-    image: 'src/components/Screenshot.png',
-    description: 'O projeto de tal, foi criado com ituito tal',
-    stacks: 'react python flask'
+    name: 'Raspa Web',
+    image: 'src/components/webscrapingproject.gif',
+    description: 'Os produtos são obtidos da raspagem do meli. e busca pé, utilizando filtros que o usuário desejar',
+    stacks: 'React, Python e Flask',
+    link: 'https://github.com/laujuu/RaspaWeb-WebScraping-Software'
   },
   {
     id: 2,
     name: 'api mt doida',
-    image: 'src/components/Screenshot2.png',
-    description: 'Pensa numa api doida, ela é uma api e doida',
-    stacks: 'react node mongodb'
+    image: 'src/components/deliveryappgif.gif',
+    description: 'Aplicação Fullstack de aplicativo delivery. Desenvolvido em equipe durante o curso da Trybe',
+    stacks: 'React, Node.js, Express, MySQL, Sass, Docker',
+    link: 'https://github.com/laujuu/Delivery-App'
 
   },
   {
     id: 3,
-    name: 'react de seila oq',
-    image: 'src/components/Screenshot3.png',
-    description: 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa',
-    stacks: 'react node express'
+    name: 'Car Shop API',
+    image: 'src/components/carshop.png',
+    description: 'Aplicado os princípios de Programação Orientada a Objetos (POO) para a construção de uma API com CRUD para gerenciar uma concessionária de veículos. Feito utilizando o banco de dados MongoDB através do framework do Mongoose',
+    stacks: 'Typescript, MongoDB, Mongoose',
+    link: 'https://github.com/laujuu/Car-Shop'
   },
 ];
 
@@ -41,9 +45,14 @@ const Carousel = () => {
     <div className={styles.carousel}>
       <div className={styles.carouselItem}>
         <h3>{items[currentItem].name}</h3>
-        <img src={items[currentItem].image} alt="Imagem do Item" />
+        <img src={items[currentItem].image} alt="Imagem demostração do projeto" />
         <div className={styles.description}>
           <p>{items[currentItem].description}</p>
+        </div>
+        <div className={styles.icon}>
+          <a href={items[currentItem].link} target="_blank" rel="noopener noreferrer">
+            <FaGithub className={styles.icon} />
+          </a>
         </div>
         <div className={styles.stacks}>
           <p>Feito com: {items[currentItem].stacks}</p>

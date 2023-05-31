@@ -21,11 +21,11 @@ class Aboutpage extends React.Component {
                     <img src={userPhoto} alt="Foto do usuário" />
                  </div>
               <p  className={styles.aboutContent}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam viverra ex
-                sit amet sollicitudin venenatis. In hac habitasse platea dictumst. Proin
-                finibus pulvinar elit, id pretium mauris consectetur nec. Integer dapibus
-                magna id tincidunt tristique. Aliquam vel ultricies mauris. Nulla facilisi.
-                Integer sed metus est.
+              Como uma Desenvolvedora Full Stack Trans, possuo um impressionante conjunto de habilidades em HTML, 
+              CSS, JavaScript, React, Node.js e bancos de dados como MySQL e MongoDB. Tenho expertise tanto no 
+              desenvolvimento front-end quanto no back-end, permitindo-me criar aplicações web completas e funcionais. 
+              Além disso, sou uma entusiasta da usabilidade e da acessibilidade, priorizando a criação de interfaces intuitivas
+              e inclusivas para todos os usuários.
               </p>
               <h2>Stacks</h2>
               <div className={styles.icons}>
