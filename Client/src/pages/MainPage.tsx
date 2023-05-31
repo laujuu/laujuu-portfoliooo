@@ -21,13 +21,13 @@ class MainPage extends React.Component {
               Atualmente vivendo em Florianópolis. 🌼🌻
             </p>
             <div className={styles.icons}>
-              <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/laura-julia-pires" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin className={styles.icon} />
               </a>
-              <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/laujuu" target="_blank" rel="noopener noreferrer">
                 <FaGithub className={styles.icon} />
               </a>
-              <a href="/download-cv">
+              <a href="../assets/curriculo-laura.pdf" download>
                 <FaDownload className={styles.icon} />
               </a>
             </div>

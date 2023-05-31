@@ -1,20 +1,24 @@
 import { useState } from 'react';
 import { FaGithub } from 'react-icons/fa';
 import styles from './css/Carousel.module.css';
+import raspaweb from '../components/webscrapingproject.gif';
+import deliveryapp from '../components/deliveryappgif.gif';
+import carshop from '../components/carshop.png';
+
 
 const items = [
   {
     id: 1,
     name: 'Raspa Web',
-    image: 'src/components/webscrapingproject.gif',
+    image: raspaweb,
     description: 'Os produtos são obtidos da raspagem do meli. e busca pé, utilizando filtros que o usuário desejar',
     stacks: 'React, Python e Flask',
     link: 'https://github.com/laujuu/RaspaWeb-WebScraping-Software'
   },
   {
     id: 2,
-    name: 'api mt doida',
-    image: 'src/components/deliveryappgif.gif',
+    name: 'Delivery APP ',
+    image: deliveryapp,
     description: 'Aplicação Fullstack de aplicativo delivery. Desenvolvido em equipe durante o curso da Trybe',
     stacks: 'React, Node.js, Express, MySQL, Sass, Docker',
     link: 'https://github.com/laujuu/Delivery-App'
@@ -23,7 +27,7 @@ const items = [
   {
     id: 3,
     name: 'Car Shop API',
-    image: 'src/components/carshop.png',
+    image: carshop,
     description: 'Aplicado os princípios de Programação Orientada a Objetos (POO) para a construção de uma API com CRUD para gerenciar uma concessionária de veículos. Feito utilizando o banco de dados MongoDB através do framework do Mongoose',
     stacks: 'Typescript, MongoDB, Mongoose',
     link: 'https://github.com/laujuu/Car-Shop'
